@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: mhmdanas/action-template@v0.1
+      - uses: mhmdanas/action-template@v0.1.0
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           type: close
